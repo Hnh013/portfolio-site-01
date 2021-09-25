@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&display=swap');
+
+.blog-header {
+  background-color: rgb(228, 136, 15);
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 5px 5px 15px grey;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/*#6C63FF*/
+
+.blog-list {
+
+}
+.blog-header-content {
+    font-weight: bold;
+    font-family: 'Recursive', sans-serif;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px grey;
+}
+
+.blog-header-img {
+    display: flex;
+    place-content: center center;
+    float: right;
+}
+
+.header-img {
+    width: 500px;
+    height:200px;
+    padding: 5px;
+}
+
+.blog-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.blog-intro-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Recursive', sans-serif;
+}
+
+.blog-intro {
+    background-color: #6C63FF;
+    color: white;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: 20px 0;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.blog-aside {
+
+}
+
+.blog-link {
+    font-size: medium;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Recursive', sans-serif;
+}
+
+.blog-links {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.blog-links-on-image {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-link-primary {
+    color: white;
+    background-color: #6C63FF;
+}
+
+.blog-link-secondary {
+    color: black;
+    background-color: rgb(228, 136, 15);
+}
+
+
+
+
+.blog-title-image {
+    height: auto;
+    width: 60vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.blog-title-image-hero {
+    height: auto;
+    max-width: 60vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.blog-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    font-size: medium;
+    
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-text-hero {
+    color: rgb(228, 136, 15);
+    font: bold;
+    font-size: x-large;
+    font-family: 'Recursive', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}
+
+
+@media only screen and (max-width : 500px) {
+
+    body , main, .blog-header {
+        margin-left: 0;
+        margin-right: 0;
+    }   
+    .blog-title-image {
+        height: auto;
+        width: 100%;
+    }
+
+}
