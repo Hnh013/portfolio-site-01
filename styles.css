@@ -27,7 +27,7 @@ body {
     cursor: pointer;
 }
  
-h3 {
+h3, h2 {
     margin: 5px 0 0 0px;
     padding-bottom: 5px;
 }
@@ -93,6 +93,81 @@ h3 {
 
 .social-icon:hover {
     color: rgb(228, 136, 15);
+}
+
+.project-section-off-white {
+    background-color: #56546e;
+    margin: 10px;
+    border: 2px solid #6C63FF;
+    box-shadow: 5px 5px 5px #6C63FF;
+}
+
+.project-section-white {
+    margin: 10px;
+    border: 2px solid rgb(228, 136, 15);
+    box-shadow: 5px 5px 5px rgb(228, 136, 15);
+}
+
+.project-container {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-intro-off-white {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    justify-content: flex-start;
+}
+
+.project-intro-white {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    justify-content: flex-start;
+    color: white;
+}
+
+.project-links {
+    padding: 5px;
+}
+
+.project-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+}
+
+.about-intro-off-white {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-intro-white {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.about-container {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-description {
+    text-align: center;
 }
 
 .blog-header {
@@ -218,6 +293,23 @@ h3 {
     text-shadow: 2px 2px 2px grey;
 }
 
+@media only screen and (max-width : 768px) {
+.project-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.about-container {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+}
 
 @media only screen and (max-width : 500px) {
 
