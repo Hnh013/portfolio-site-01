@@ -8,6 +8,8 @@ a , a:active , a:hover , a:visited {
 body {
     font-family: 'Recursive', sans-serif;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 /*HOME*/
@@ -57,6 +59,14 @@ h3, h2 {
     border-radius: 10px 0px ;
     background-color: rgb(228, 136, 15);
     font-weight: bold;
+}
+
+footer {
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-div {
@@ -111,7 +121,6 @@ h3, h2 {
 .project-container {
     padding: 10px;
     margin: 5px;
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
