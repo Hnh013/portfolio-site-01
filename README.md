@@ -1,7 +1,7 @@
 # PORTFOLIO SITE    
 ### This is a portfolio site made by Harshit Negi.
 It contains blog links , project links and links to my other social media accounts.
-Live Site at :    
+Live Site at : https://portfolio-site-01-dz0iriwsm-hnh013.vercel.app/    
 
 Pre-requisites : A code editor    
 Steps to run the app at your local machine    
